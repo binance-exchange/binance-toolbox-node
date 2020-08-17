@@ -4,12 +4,14 @@
   "description": "",
   "scripts": {
     "account": "node ./src/account.js",
-    "place-order": "node ./src/place-order.js"
+    "place-order": "node ./src/place-order.js",
+    "large-order-delay": "node ./src/large-order-delay.js"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "binance-connector-node": "^0.0.3"
+    "binance-connector-node": "^0.1.0",
+    "bunyan": "^1.8.14"
   }
 }
